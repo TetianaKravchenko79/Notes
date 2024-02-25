@@ -27,7 +27,7 @@ class MainDialog extends React.Component {
   handleLogout() {
     this.setState({
       uid: "",
-      // register: 0,
+       register: 0,
     });
 
     localStorage.uid = "";
